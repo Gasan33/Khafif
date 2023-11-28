@@ -1,0 +1,15 @@
+{
+    "loginLabel":"تسجيل دخول",
+    "loginSubTitle":"سجل بياناتك او سجل عن طريق مواقع التواصل الاجتماعي",
+    "loginWithGoogle":"الاستمرار من خلال Google",
+    "loginWithApple":"الاستمرار من خلال Apple",
+    "dontHaveAccont":"لا تملك حساب ؟",
+    "singUpLabel":"تسجيل جديد",
+    "singUpSubTitle":"ادخل بياناتك او سجل عن طريق مواقع التواصل الاجنماعي",
+    "singUpWithGoogle":"سجل عن طريق قوقل",
+    "singUpWithApple":"سجل عن طريق ابل",
+    "allReadyHaveAccont":"انضممت من قبل ؟",
+    "fullName":"الاسم الكامل",
+    "onBoardingTitle":"توصيل سيع في اي مكان",
+    "onBoardingSubTitle":"توصيل الطعام والطلبات لاميبقة للاستلام من الفرع نظام متكامل لاستعراض المنيو والتوصيل"
+}
