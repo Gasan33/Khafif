@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:khafif/Constants/mycolors.dart';
-import 'package:khafif/Views/tracking_order_screen.dart';
+import 'package:khafif/Views/my_adresses_screen.dart';
+import 'package:khafif/Views/my_orders_screen.dart';
+import 'package:khafif/Views/personal_details.dart';
 
 customAppBar(String title, BuildContext context, bool home) {
   return PreferredSize(
@@ -14,7 +16,7 @@ customAppBar(String title, BuildContext context, bool home) {
         leading: home
             ? IconButton(
                 onPressed: () {
-                  Navigator.of(context).pop();
+                  // Navigator.of(context).pop();
                 },
                 icon: const Icon(
                   Icons.notifications,
@@ -46,7 +48,10 @@ customAppBar(String title, BuildContext context, bool home) {
               ),
         actions: [
           IconButton(
-              onPressed: () {},
+              onPressed: () {
+                Navigator.of(context).push(MaterialPageRoute(
+                    builder: (context) => const PersonalDetails()));
+              },
               icon: const Icon(
                 Icons.menu,
                 color: Colors.black,
@@ -310,25 +315,46 @@ customboxDecoration(double rad, Color color) {
       ]);
 }
 
-Widget buildInfoContent(String title, Icon icon) {
-  return Container(
-    width: 56,
-    height: double.infinity,
-    margin: const EdgeInsetsDirectional.fromSTEB(8, 8, 8, 8),
-    //padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 8),
-    decoration: customboxDecoration(16, Colors.white),
-    child: Column(
-      mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-      crossAxisAlignment: CrossAxisAlignment.center,
-      children: [
-        icon,
-        Text(
-          title,
-          style: const TextStyle(
-            fontSize: 10,
-          ),
+Widget buildInfoContent(String title, Icon icon, BuildContext context) {
+  return InkWell(
+    onTap: () {
+      Navigator.of(context).push(
+        MaterialPageRoute(
+          builder: (context) {
+            switch (title) {
+              case "Addresses":
+                return const MyAddressesScreen();
+              case "Settings":
+                return const MyAddressesScreen();
+              case "My Info":
+                return const MyAddressesScreen();
+              case "My Orders":
+                return const MyOrdersScreen();
+            }
+            return const MyAddressesScreen();
+          },
         ),
-      ],
+      );
+    },
+    child: Container(
+      width: 56,
+      height: double.infinity,
+      margin: const EdgeInsetsDirectional.fromSTEB(8, 8, 8, 8),
+      //padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 8),
+      decoration: customboxDecoration(16, Colors.white),
+      child: Column(
+        mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+        crossAxisAlignment: CrossAxisAlignment.center,
+        children: [
+          icon,
+          Text(
+            title,
+            style: const TextStyle(
+              fontSize: 10,
+            ),
+          ),
+        ],
+      ),
     ),
   );
 }

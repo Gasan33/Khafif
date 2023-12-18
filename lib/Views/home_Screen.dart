@@ -98,7 +98,7 @@ class _HomeScreenState extends State<HomeScreen> {
             if (connected) {
               return buildHomeWidget(context);
             } else {
-              return buildHomeWidget(context);
+              return buildNoInternetWidget();
             }
           },
           child: showLoadingIndicator(),

@@ -33,7 +33,7 @@ class _TrackingOrderState extends State<TrackingOrderScreen> {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           StepperItem(
-            title: "Title 1",
+            title: "Order Accepted",
             index: 0,
             currentIndex: _currentIndex,
             onTap: () {
@@ -44,7 +44,7 @@ class _TrackingOrderState extends State<TrackingOrderScreen> {
             isLast: false,
           ),
           StepperItem(
-            title: "Title 2",
+            title: "Preparing",
             index: 1,
             currentIndex: _currentIndex,
             onTap: () {
@@ -55,7 +55,7 @@ class _TrackingOrderState extends State<TrackingOrderScreen> {
             isLast: false,
           ),
           StepperItem(
-            title: "Title 3",
+            title: "Ready",
             index: 2,
             currentIndex: _currentIndex,
             onTap: () {
@@ -66,7 +66,7 @@ class _TrackingOrderState extends State<TrackingOrderScreen> {
             isLast: false,
           ),
           StepperItem(
-            title: "Title 4",
+            title: "Under Delivery",
             index: 3,
             currentIndex: _currentIndex,
             onTap: () {
@@ -77,7 +77,7 @@ class _TrackingOrderState extends State<TrackingOrderScreen> {
             isLast: false,
           ),
           StepperItem(
-            title: "Title 5",
+            title: "Delivered",
             index: 4,
             currentIndex: _currentIndex,
             onTap: () {

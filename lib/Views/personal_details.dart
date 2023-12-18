@@ -23,10 +23,26 @@ class _PersonalDetailsState extends State<PersonalDetails> {
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          buildInfoContent("Settings", const Icon(Icons.settings)),
-          buildInfoContent("My Info", const Icon(Icons.info)),
-          buildInfoContent("Addresses", const Icon(Icons.location_city)),
-          buildInfoContent("My Orders", const Icon(Icons.paypal)),
+          buildInfoContent(
+            "Settings",
+            const Icon(Icons.settings),
+            context,
+          ),
+          buildInfoContent(
+            "My Info",
+            const Icon(Icons.info),
+            context,
+          ),
+          buildInfoContent(
+            "Addresses",
+            const Icon(Icons.location_city),
+            context,
+          ),
+          buildInfoContent(
+            "My Orders",
+            const Icon(Icons.paypal),
+            context,
+          ),
         ],
       ),
     );

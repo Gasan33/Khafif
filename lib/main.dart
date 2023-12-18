@@ -1,12 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:khafif/Languages/languages.dart';
-import 'package:khafif/Views/item_details_screen.dart';
-
-import 'package:khafif/Views/maps_screen.dart';
-import 'package:khafif/Views/onBoarding_Screens.dart';
 import 'package:khafif/Views/splash_screen.dart';
-import 'package:khafif/Views/tracking_order_screen.dart';
 
 void main() {
   // WidgetsFlutterBinding();

@@ -6,6 +6,7 @@ import 'package:khafif/Presintation/Widgets/global_item.dart';
 import 'package:khafif/Presintation/Widgets/methods.dart';
 import 'package:khafif/Views/home_Screen.dart';
 import 'package:khafif/Views/login_screen.dart';
+import 'package:khafif/Views/maps_screen.dart';
 import 'package:smooth_page_indicator/smooth_page_indicator.dart';
 
 class ItemDetailsScreen extends StatefulWidget {
@@ -206,7 +207,7 @@ class _ItemDetailsScreenState extends State<ItemDetailsScreen> {
                 Colors.white,
                 false,
                 context,
-                const LoginScreen()),
+                const SimpleMap()),
             buildCounterButton(
                 '04',
                 72,
