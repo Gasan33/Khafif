@@ -19,3 +19,13 @@ samples, guidance on mobile development, and a full API reference.
 
 
 ![Screenshot_1702900894](https://github.com/Gasan33/Khafif/assets/147078972/9ef2f4a6-e0b4-4f27-bee4-7e2b29c2bf74)
+
+
+![Screenshot_1702901748](https://github.com/Gasan33/Khafif/assets/147078972/0834c4f9-a96e-42f4-9d1a-de22dc089bbb)
+
+
+![Screenshot_1702901782](https://github.com/Gasan33/Khafif/assets/147078972/fb2e0b9e-67ab-4e05-9041-9489b800723c)
+
+
+
+![Screenshot_1702901789](https://github.com/Gasan33/Khafif/assets/147078972/3ae346e9-2fcf-4d39-92de-fab11ff76681)
